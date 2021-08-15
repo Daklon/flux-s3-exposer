@@ -5,3 +5,4 @@ resources:
 - gotk-sync.yaml
 - s3-exposer/flux.yaml
 - cert-manager/flux.yaml
+- external-dns/flux.yaml
