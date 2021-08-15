@@ -35,5 +35,7 @@ spec:
     domainFilters: 
       - tryland.com.es
     txtOwnerId: s3-exposer
-
+    serviceAccount:
+      create: false
+      name: external-dns
 
