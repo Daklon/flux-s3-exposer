@@ -23,6 +23,8 @@ spec:
         name: s3-exposer
   dependsOn:
     - name: cert-manager
+    - name: ingress-controller
+    - name: external-dns
   install: {}
   interval: 1m0s
   values:
