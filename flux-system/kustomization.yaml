@@ -6,4 +6,6 @@ resources:
 - s3-exposer/flux.yaml
 - cert-manager/flux.yaml
 - external-dns/flux.yaml
-- ingress-controller/flux.yaml
+- https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.48.1/deploy/static/provider/aws/deploy.yaml
+patchesStrategicMerge:
+- nginx-ingress-configmap.yaml
