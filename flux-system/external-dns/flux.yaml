@@ -38,4 +38,5 @@ spec:
     serviceAccount:
       create: false
       name: external-dns
+    policy: sync
 
